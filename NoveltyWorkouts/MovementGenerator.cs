@@ -14,6 +14,10 @@ namespace NoveltyWorkouts
             "Danish",
             "Bulgarian",
             "Irish",
+            "Spanish",
+            "Hungarian",
+            "Romanian",
+            "Mongolian"
         };
 
         private static string[] _bodyParts = new[] {
@@ -21,7 +25,10 @@ namespace NoveltyWorkouts
             "Arm",
             "Back",
             "Bicep",
-            "Hamstring"
+            "Hamstring",
+            "Calf",
+            "Forearm",
+            "Abdominal"
         };
 
         private static string[] _animals = new[] {
@@ -31,6 +38,8 @@ namespace NoveltyWorkouts
             "Lion",
             "Eagle",
             "Dolphin",
+            "Donkey",
+            "Gorilla"
         };
 
         private static string[] _movements = new[] {
@@ -42,7 +51,8 @@ namespace NoveltyWorkouts
             "Run",
             "Jump",
             "Crawl",
-            "Curl"
+            "Curl",
+            "Hold"
         };
 
         private static Func<string>[] _namingStrategies = new Func<string>[] {
