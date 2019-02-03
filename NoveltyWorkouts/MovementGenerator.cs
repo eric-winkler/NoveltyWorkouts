@@ -48,7 +48,7 @@ namespace NoveltyWorkouts
             "Dip",
             "Twist",
             "Walk",
-            "Run",
+            "Sprint",
             "Jump",
             "Crawl",
             "Curl",
